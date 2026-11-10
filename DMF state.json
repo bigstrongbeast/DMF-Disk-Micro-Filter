@@ -1,8 +1,8 @@
 {
  "meta": {
-  "time": "2026-11-10 12:16",
+  "time": "2026-11-10 12:17",
   "top": "ASY DMF-1000 Drum.iam",
-  "git_head": "51306d6"
+  "git_head": "2dc4f7e"
  },
  "state": {
   "ASY DMF-1000 Drum.iam/bom/parts_only": true,
@@ -356,6 +356,7 @@
   "ASY DMF-1000 Drum.iam/occ/DMF-1015 Cap Bracket Large:1/grounded": false,
   "ASY DMF-1000 Drum.iam/occ/DMF-1015 Cap Bracket Large:1/suppressed": false,
   "ASY DMF-1000 Drum.iam/occ/DMF-1015 Cap Bracket Large:1/visible": true,
+  "ASY DMF-1000 Drum.iam/param/JevTest": "5 mm = 0.5",
   "ASY DMF-1000 Drum.iam/param/d583": "2,0 mm = 0.2",
   "ASY DMF-1000 Drum.iam/param/d584": "246 mm = 24.6",
   "ASY DMF-1000 Drum.iam/param/d585": "1 ul = 1.0",
@@ -2571,11 +2572,22 @@
  "plan": [],
  "check": {
   "result": "ok",
-  "matched": 0,
+  "matched": 1,
   "extra": 0,
   "missing": 0,
   "broken": 0,
-  "plan_done": [],
-  "time": "2026-11-10 12:16"
+  "plan_done": [
+   {
+    "key": "ASY DMF-1000 Drum.iam/param/JevTest",
+    "op": "add",
+    "why": "тест: своя переменная"
+   },
+   {
+    "key": "ASY DMF-1000 Drum.iam/constraint/*",
+    "op": "keep",
+    "why": "зависимости Димы не трогать"
+   }
+  ],
+  "time": "2026-11-10 12:17"
  }
 }
