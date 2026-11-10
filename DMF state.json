@@ -1,8 +1,8 @@
 {
  "meta": {
-  "time": "2026-11-10 12:19",
+  "time": "2026-11-10 12:28",
   "top": "ASY DMF-1000 Drum.iam",
-  "git_head": "ecdc8ce"
+  "git_head": "38aa7a6"
  },
  "state": {
   "ASY DMF-1000 Drum.iam/bom/parts_only": true,
@@ -2571,17 +2571,11 @@
  "plan": [],
  "check": {
   "result": "ok",
-  "matched": 1,
+  "matched": 0,
   "extra": 0,
   "missing": 0,
   "broken": 0,
-  "plan_done": [
-   {
-    "key": "ASY DMF-1000 Drum.iam/param/JevTest3",
-    "op": "remove",
-    "why": "убрать тестовую"
-   }
-  ],
-  "time": "2026-11-10 12:19"
+  "plan_done": [],
+  "time": "2026-11-10 12:28"
  }
 }
