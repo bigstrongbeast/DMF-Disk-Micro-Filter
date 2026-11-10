@@ -1,8 +1,8 @@
 {
  "meta": {
-  "time": "2026-11-10 12:28",
+  "time": "2026-11-10 12:30",
   "top": "ASY DMF-1000 Drum.iam",
-  "git_head": "38aa7a6"
+  "git_head": "22a0d32"
  },
  "state": {
   "ASY DMF-1000 Drum.iam/bom/parts_only": true,
@@ -2568,14 +2568,20 @@
   "ISO 4032 - M8DIN EN.ipt/sketch/Sketch2": "lines=6 circles=0 arcs=0 dims=4",
   "ISO 4032 - M8DIN EN.ipt/sketch/Sketch3": "lines=0 circles=0 arcs=1 dims=0"
  },
- "plan": [],
+ "plan": [
+  {
+   "key": "ASY DMF-1000 Drum.iam/param/HookTest",
+   "op": "add",
+   "why": "тест хука"
+  }
+ ],
  "check": {
-  "result": "ok",
+  "result": "FAIL",
   "matched": 0,
   "extra": 0,
-  "missing": 0,
+  "missing": 1,
   "broken": 0,
   "plan_done": [],
-  "time": "2026-11-10 12:28"
+  "time": "2026-11-10 12:30"
  }
 }
