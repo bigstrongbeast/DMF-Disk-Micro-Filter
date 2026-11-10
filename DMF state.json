@@ -1,8 +1,8 @@
 {
  "meta": {
-  "time": "2026-11-10 12:14",
+  "time": "2026-11-10 12:16",
   "top": "ASY DMF-1000 Drum.iam",
-  "git_head": "6a73ea0"
+  "git_head": "51306d6"
  },
  "state": {
   "ASY DMF-1000 Drum.iam/bom/parts_only": true,
@@ -2569,5 +2569,13 @@
   "ISO 4032 - M8DIN EN.ipt/sketch/Sketch3": "lines=0 circles=0 arcs=1 dims=0"
  },
  "plan": [],
- "check": {}
+ "check": {
+  "result": "ok",
+  "matched": 0,
+  "extra": 0,
+  "missing": 0,
+  "broken": 0,
+  "plan_done": [],
+  "time": "2026-11-10 12:16"
+ }
 }
