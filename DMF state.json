@@ -1,8 +1,8 @@
 {
  "meta": {
-  "time": "2026-11-16 08:57",
+  "time": "2026-11-16 09:13",
   "top": "ASY DMF-0010 Disk Micro Filter.iam, DMF-4104 Plate Holes Edge.ipt, DMF-4106 Plate 2 Holes.ipt, DMF-4105 Plate Holes Center.ipt, DMF-4103 Gearbox Stand 02.ipt, DMF-3003 Wall Left.ipt, DMF-1013 Side Stiffener 02.ipt, DMF-1005 Side Stiffener 01.ipt, DMF-1207 Slot Plate Small.ipt, DMF-3010 Collector Blank.ipt, DMF-1011 Support Ring Tail.ipt, DMF-3005 Flange Exit.ipt, DMF-3006 Hat.ipt, DMF-3011 Pancake.ipt, ASY DMF-3100 Face Wall Frame.iam, DMF-3009 Nozzle Pipe.ipt, DMF-3007 Cover.ipt, DMF-3008 Comb.ipt, DMF-2006 Tray Holder.ipt, DMF-3002 Wall Face.ipt, DMF-3001 Wall Bottom.ipt, DMF-3004 Wall Right.ipt",
-  "git_head": "52b8ae9"
+  "git_head": "5843157"
  },
  "state": {
   "ASY DMF-0010 Disk Micro Filter.iam/bom/parts_only": true,
@@ -6784,32 +6784,11 @@
  "plan": [],
  "check": {
   "result": "ok",
-  "matched": 4,
+  "matched": 0,
   "extra": 0,
   "missing": 0,
   "broken": 0,
-  "plan_done": [
-   {
-    "key": "ASY DMF-0010 Disk Micro Filter.iam/bom/structured",
-    "op": "set",
-    "why": "laser: BOM включён"
-   },
-   {
-    "key": "ASY DMF-0010 Disk Micro Filter.iam/bom/parts_only",
-    "op": "set",
-    "why": "laser: BOM включён"
-   },
-   {
-    "key": "DMF-4005 Bed Bow Mount.ipt/sheet/flat_pattern",
-    "op": "set",
-    "why": "laser: развёртка создана"
-   },
-   {
-    "key": "DMF-3012 Front Wall Dummy.ipt/sheet/flat_pattern",
-    "op": "set",
-    "why": "laser: развёртка создана"
-   }
-  ],
-  "time": "2026-11-16 08:57"
+  "plan_done": [],
+  "time": "2026-11-16 09:13"
  }
 }
