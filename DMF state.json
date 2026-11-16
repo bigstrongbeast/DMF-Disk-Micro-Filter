@@ -5663,7 +5663,128 @@
   "ДМФ 043 шпилька 2 v2.0.ipt/prop/Stock Number": "",
   "ДМФ 043 шпилька 2 v2.0.ipt/sketch/Sketch1": "lines=0 circles=1 arcs=0 dims=1"
  },
- "plan": [],
+ "plan": [
+  {
+   "key": "*/occ/*",
+   "op": "set",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "*/constraint/*/o1",
+   "op": "set",
+   "why": "occurrence names follow rename"
+  },
+  {
+   "key": "*/constraint/*/o2",
+   "op": "set",
+   "why": "occurrence names follow rename"
+  },
+  {
+   "key": "*/joint/*/o1",
+   "op": "set",
+   "why": "occurrence names follow rename"
+  },
+  {
+   "key": "*/joint/*/o2",
+   "op": "set",
+   "why": "occurrence names follow rename"
+  },
+  {
+   "key": "*/constraint/*/health",
+   "op": "keep",
+   "why": "Dima constraints must stay healthy"
+  },
+  {
+   "key": "*/joint/*/health",
+   "op": "keep",
+   "why": "Dima joints must stay healthy"
+  },
+  {
+   "key": "*/prop/*",
+   "op": "set",
+   "why": "Part Number, Stock Number, Material (Dima 03:20)"
+  },
+  {
+   "key": "ДМФ 000 размеры v2.0.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-0012 Dimensions v2.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "ДМФ 042 шпилька 1 v2.0.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-4201 Stud 01.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "ДМФ 043 шпилька 2 v2.0.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-4202 Stud 02.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "ДМС 033 шпилька 3 v2.0.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-4203 Stud 03.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-16xx front connector rrubber seal.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1611 Front Connector Rubber Seal.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-16xx front connector ring 2.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1612 Front Connector Ring 2 Half.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1613 front connector ring 3 half .ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1613 Front Connector Ring 3 Half.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-16xx cjnnector ring.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1614 Connector Ring.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  }
+ ],
  "check": {
   "result": "ok",
   "matched": 0,
