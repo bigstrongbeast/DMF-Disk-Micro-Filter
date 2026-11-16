@@ -1,8 +1,8 @@
 {
  "meta": {
-  "time": "2026-11-16 03:00",
+  "time": "2026-11-16 03:08",
   "top": "ASY DMF-0010 Disk Micro Filter.iam",
-  "git_head": "f6de8be"
+  "git_head": "95f3d87"
  },
  "state": {
   "ASY DMF-0010 Disk Micro Filter.iam/bom/parts_only": false,
@@ -4476,7 +4476,7 @@
   "DMF-3004 Front Wall dummy.ipt/param/Шпил_пласт_НОС_диам_шпильки": "12,000 mm = 1.2",
   "DMF-3004 Front Wall dummy.ipt/param/Шпил_пласт_НОС_кол_шпилек": "8,000 ul = 8.0",
   "DMF-3004 Front Wall dummy.ipt/prop/Description": "",
-  "DMF-3004 Front Wall dummy.ipt/prop/Material": "Generic",
+  "DMF-3004 Front Wall dummy.ipt/prop/Material": "Polypropylene",
   "DMF-3004 Front Wall dummy.ipt/prop/Part Number": "DMF-3004 Front Wall dummy",
   "DMF-3004 Front Wall dummy.ipt/prop/Stock Number": "DMF-3003",
   "DMF-3004 Front Wall dummy.ipt/sheet/flat_pattern": false,
@@ -4517,7 +4517,7 @@
   "DMF-3005 back Wall dummy.ipt/param/Шпил_пласт_КОРМА_диам_шпильки": "12,000 mm = 1.2",
   "DMF-3005 back Wall dummy.ipt/param/Шпил_пласт_КОРМА_кол_шпилек": "16,000 ul = 16.0",
   "DMF-3005 back Wall dummy.ipt/prop/Description": "",
-  "DMF-3005 back Wall dummy.ipt/prop/Material": "Generic",
+  "DMF-3005 back Wall dummy.ipt/prop/Material": "Polypropylene",
   "DMF-3005 back Wall dummy.ipt/prop/Part Number": "DMF-3005 back Wall dummy",
   "DMF-3005 back Wall dummy.ipt/prop/Stock Number": "back wall",
   "DMF-3005 back Wall dummy.ipt/sheet/flat_pattern": true,
