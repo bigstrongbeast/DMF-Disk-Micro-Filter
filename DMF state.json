@@ -5783,6 +5783,126 @@
    "key": "DMF-1614 Connector Ring.ipt/*",
    "op": "add",
    "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-16xx connector tube.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1615 Connector Tube.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-3004 Front Wall dummy.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-3012 Front Wall Dummy.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-3005 back Wall dummy.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-3013 Back Wall Dummy.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-3102 dummyl Frame Sketch.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-6101 Dummy Frame Sketch.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1600 front connector.iam/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "ASY DMF-1600 Front Connector.iam/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "ASY-DMF_xxxx_drive shaft.iam/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "ASY DMF-4200 Drive Shaft.iam/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "ASY DMF-6100 dummyl Frame.iam/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "ASY DMF-6100 Dummy Frame.iam/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-7xxx 4hole plate_CPY.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-4104 Plate Holes Edge.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-7xxx 4hole plate.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-4105 Plate Holes Center.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-7xxx 2hole plate.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-4106 Plate 2 Holes.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1206 Slot Plate Large 01_CPY.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1217 Slot Plate Large 03.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1206 Slot Plate Large 01_CPY_CPY.ipt/*",
+   "op": "remove",
+   "why": "10.R rename table (Dima 03:28 yes)"
+  },
+  {
+   "key": "DMF-1218 Slot Plate Large 04.ipt/*",
+   "op": "add",
+   "why": "10.R rename table (Dima 03:28 yes)"
   }
  ],
  "check": {
