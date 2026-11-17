@@ -6781,7 +6781,13 @@
   "ДМФ 000 размеры.ipt/prop/Part Number": "ДМФ 000 размеры",
   "ДМФ 000 размеры.ipt/prop/Stock Number": ""
  },
- "plan": [],
+ "plan": [
+  {
+   "key": "ASY DMF-6100 Dummy Frame.iam/occ/Frame 1794394492351:1*",
+   "op": "set",
+   "why": "i13 task 17: FG member orientation (Angle/Offset in Frame.Skeletons attribute) of reused members"
+  }
+ ],
  "check": {
   "result": "ok",
   "matched": 0,
