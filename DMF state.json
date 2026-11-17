@@ -6697,6 +6697,16 @@
    "key": "ASY DMF-6100 Dummy Frame.iam/occ/Frame 1794394492351:1*",
    "op": "set",
    "why": "i13 task 17: FG member orientation (Angle/Offset in Frame.Skeletons attribute) of reused members"
+  },
+  {
+   "key": "DMF-6101 Dummy Frame Sketch.ipt/*",
+   "op": "set",
+   "why": "task 23: delete 2 free points, Reuse back tubes"
+  },
+  {
+   "key": "ASY DMF-6100 Dummy Frame.iam/occ/Frame 1794394492351:1*",
+   "op": "set",
+   "why": "task 23: Reuse back tubes"
   }
  ],
  "check": {
